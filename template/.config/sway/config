@@ -1,0 +1,11 @@
+# Config for sway, from user-safe
+
+set $mod Mod4
+
+bindsym $mod+BackSpace exec "swaylock -efc 000000"
+bindsym $mod+Shift+e exec "swaymsg exit"
+bindsym $mod+Return exec "st"
+bindsym $mod+d exec "dmenu < ~/.safe/aliases | xargs safe_run.sh"
+
+exec "xhost +local:"
+

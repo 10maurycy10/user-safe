@@ -1,0 +1,4 @@
+#!/bin/false
+# This file sourced before switching users
+#export ENV=VALUE
+umask 002
